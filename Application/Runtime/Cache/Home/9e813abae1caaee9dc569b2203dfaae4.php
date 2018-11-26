@@ -1,0 +1,283 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title><?php echo ($tkd["title"]); ?></title>
+        <?php if(!empty($tkd["keyword"])): ?><meta name="keywords" content="<?php echo ($tkd["keyword"]); ?>"/><?php endif; ?>
+        <?php if(!empty($tkd["description"])): ?><meta name="description" content="<?php echo ($tkd["description"]); ?>"/><?php endif; ?>
+    
+    
+    
+        <link href="Public/css/bootstrap.min.css" rel="stylesheet">
+        <link href="Public/css/base.css?1.1" rel="stylesheet">
+    
+    
+    
+        <script src="Public/js/jquery.js"></script>
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+        <script src="Public/js/bootstrap.min.js"></script>
+
+    
+    
+    <script>
+        $(function(){
+//         add imgurl
+            $(document).on("click",".addimgurl",function(){
+                var hl = '';
+                hl += '<div class="input-group">';
+                hl +=  '<input type="url" class="form-control blur_input imgurl" data-name="img_url"  placeholder="imgurl">';
+                hl +=  '<span class="input-group-btn _remove_imgurl">';
+                hl +=  '<button class="btn btn-default " type="button">';
+                hl +=  '<span class="glyphicon glyphicon-remove"></span>';
+                hl +=  '</button>';
+                hl +=  '</span>';
+                hl +=  '</div>';
+                $(this).siblings('.imgurl_group').append(hl);
+            });
+            //remove imgurl
+            $(document).on("click","._remove_imgurl",function(){
+
+                if($(this).siblings('.imgurl').val() == ''){
+                    $(this).parents('.input-group').remove();
+                }else{
+                    alert('请先清空链接,然后删除');
+                }
+            });
+//add itme
+
+            $(document).on("click",".additem",function() {
+                _this = $(this);
+                var list_id = $('#list_id').val();
+                $.post('?c=index&a=additem',{list_id:list_id},function(data){
+                    _this.siblings('._list_box').append(data);
+                },'html');
+            });
+
+//        remove item
+            $(document).on("click",".removeitem",function() {
+                _this = $(this);
+                if (confirm("确认删除这个清单item吗?")) {
+                    _this.parents('._list_row').remove();
+                }
+            });
+
+//        click is_public
+            $(document).on("click",".is_public",function(){
+
+                $('.is_public').removeClass('active');
+                $(this).addClass('active');
+            });
+
+
+
+            // blur update
+//        $(document).on("blur",".blur_input",function() {
+//
+//            var url = '?c=index&a=addHandle';
+//            var type = $(this).data('name');
+//            var val = $(this).val();
+//            var item_id = $(this).parents('._list_row').data('id');
+//            var list_id = $('#list_id').val();
+//            var data = {type:type,val:val,list_id:list_id,item_id:item_id};
+//            $.post(url,data);
+//
+//        });
+            $(document).on("click","#save",function() {
+                var name = $("[data-name='name']").val();
+                var desc = $("[data-name='desc']").val();
+                var tags = $("[data-name='tags']").val();
+
+
+                var is_public = $('.is_public.active').data('value');
+                var items = new Object();
+                $('._list_box ._list_row').each(function(index){
+                    items[index] = new Object();
+                    items[index]['content'] = $(this).find(("[data-name='content']")).val();
+                    items[index]['itemdesc'] = $(this).find(("[data-name='itemdesc']")).val();
+                    items[index]['url'] = $(this).find(("[data-name='url']")).val();
+                    indexf  = index;
+                    items[indexf]['img_url'] = new Object();
+                    $(this).find('.imgurl_group .input-group').each(function(index2){
+                        items[indexf]['img_url'][index2] = $(this).find(("[data-name='img_url']")).val();
+                    });
+                });
+                items = JSON.stringify(items);
+                var url = '?c=index&a=addHandle';
+                var data = {
+                    name:name,
+                    desc:desc,
+                    tags:tags,
+                    is_public:is_public,
+                    items:items
+                };
+
+                $.post(url,data,function(res){
+
+                    alert(res.data);
+                    if(res.status ==200){
+                        window.location.href = '?c=index';
+                    }
+
+                });
+            });
+
+
+
+
+        })
+
+    </script>
+
+
+
+    <style>
+        .imgurl_group .input-group{
+            margin-bottom: 5px;
+        }
+        .additem{
+            margin: 5px auto;
+        }
+        .active{
+            color: #fff !important;
+            background-color: #5cb85c !important;
+            border-color: #4cae4c !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container _m_container" id="_m_container">
+    
+        <div class="row _search" >
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="search for listname">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"> <span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+    <div class="_list_contai">
+        <div class="_list_top">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label  class="col-xs-3 control-label">listname: </label>
+                    <div class="col-xs-9">
+                        <input type="text" class="form-control blur_input" data-name="name"  placeholder="list name">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="_list_box">
+            <div class="_list_row " data-id="<?php echo ($item_id); ?>">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label  class="col-xs-3 control-label">content: </label>
+                        <div class="col-xs-9">
+                            <input type="text" class="form-control blur_input " data-name="content" placeholder="content">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-xs-3 control-label">description: </label>
+                        <div class="col-xs-9">
+                            <input type="text" class="form-control blur_input " data-name="itemdesc"  placeholder="description">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-xs-3 control-label">url: </label>
+                        <div class="col-xs-9">
+                            <input type="url" class="form-control blur_input" data-name="url"  placeholder="url">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">imgurl: </label>
+                        <div class="col-xs-9 ">
+                            <div class="imgurl_group">
+                                <div class="input-group">
+                                    <input type="url" class="form-control blur_input imgurl" data-name="img_url"  placeholder="imgurl">
+                                    <span class="input-group-btn _remove_imgurl">
+                                    <button class="btn btn-default " type="button">
+                                        <span class="glyphicon glyphicon-remove"></span>
+                                    </button>
+                                </span>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-default addimgurl"><span class="glyphicon glyphicon-plus">imgurl</span></button>
+                        </div>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-link removeitem">remove item</button>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block additem">add item</button>
+        <div class="_list_row _list_desc">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label  class="col-xs-3 control-label">备注: </label>
+                    <div class="col-xs-9">
+                        <input type="text" class="form-control blur_input" data-name="desc"  placeholder="备注">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="_list_row _list_tags">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label  class="col-xs-3 control-label">标签: </label>
+                    <div class="col-xs-9">
+                        <input type="text" class="form-control blur_input" data-name="tags"  placeholder="多个以逗号分割">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="_list_row _btn_box">
+            <div class="row">
+                <div class="col-sm-12 isPublic_box">
+                    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn btn-default is_public active" data-value="1" >私有</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn btn-default is_public" data-value="2" >公开</button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" id="save" class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!--hidden 数据-->
+        <input type="hidden" id="list_id" value="<?php echo ($list_id); ?>">
+
+    
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <a href="" class="btn line_right"><span class="glyphicon glyphicon-home">首页</span> </a>
+                <a href="" class="btn line_right"> <span class=" glyphicon glyphicon-plus">增加清单</span> </a>
+                <a href="" class="btn"><span class="glyphicon glyphicon-user ">我的清单</span> </a>
+            </div>
+        </nav>
+    
+
+</div>
+
+
+</body>
+
+
+</html>

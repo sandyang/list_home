@@ -1,0 +1,9 @@
+<volist name="user_list" id="vo">
+    <div class="col-xs-4 group_list  <if condition='$vo.is_more egt  1'> show_more_list </if>" data-list="{$vo.id}" >
+        <if condition="$vo.is_more egt 1">
+            <a href="javascript:;" class="show_more_user" data-page="{$vo.is_more}"><h5>{$vo.username}</h5></a>
+            <else />
+            <a href=""><h5>{$vo.username}</h5></a>
+        </if>
+    </div>
+</volist>

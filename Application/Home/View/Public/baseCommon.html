@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <block name="keyword">
+        <title>{$tkd.title}</title>
+        <?php if(!empty($tkd["keyword"])): ?><meta name="keywords" content="{$tkd.keyword}"/><?php endif; ?>
+        <?php if(!empty($tkd["description"])): ?><meta name="description" content="{$tkd.description}"/><?php endif; ?>
+    </block>
+    <block name="reset"></block>
+    <block name="PublicCss">
+        <link href="__RESOURCE__/css/bootstrap.min.css" rel="stylesheet">
+        <link href="__RESOURCE__/css/base.css?1.1" rel="stylesheet">
+    </block>
+    <block name="InnerCss"></block>
+    <block name="PublicJs">
+        <script src="__RESOURCE__/js/jquery.js"></script>
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+        <script src="__RESOURCE__/js/bootstrap.min.js"></script>
+
+    </block>
+    <block name="InnerJs"></block>
+
+
+    <style>
+        .imgurl_group .input-group{
+            margin-bottom: 5px;
+        }
+        .additem{
+            margin: 5px auto;
+        }
+        .active{
+            color: #fff !important;
+            background-color: #5cb85c !important;
+            border-color: #4cae4c !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container _m_container" id="_m_container">
+    <block name="MainHeader">
+        <div class="row _search" >
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="search for listname">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"> <span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                </div>
+            </div>
+        </div>
+    </block>
+    <block name="body">
+
+
+
+    </block>
+    <block name="footer">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <a href="" class="btn line_right"><span class="glyphicon glyphicon-home">首页</span> </a>
+                <a href="" class="btn line_right"> <span class=" glyphicon glyphicon-plus">增加清单</span> </a>
+                <a href="" class="btn"><span class="glyphicon glyphicon-user ">我的清单</span> </a>
+            </div>
+        </nav>
+    </block>
+
+</div>
+
+
+</body>
+
+
+</html>

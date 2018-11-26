@@ -1,0 +1,927 @@
+[ 2018-11-23T00:02:49+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000816s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002110s ]
+
+[ 2018-11-23T00:03:04+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2018-11-23T00:03:06+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2018-11-23T00:03:07+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000703s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2018-11-23T00:05:15+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004020s ]
+
+[ 2018-11-23T00:05:16+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2018-11-23T00:05:53+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2018-11-23T00:05:56+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000535s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-11-23T00:06:53+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000572s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002567s ]
+
+[ 2018-11-23T00:06:55+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2018-11-23T00:09:52+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000779s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004234s ]
+
+[ 2018-11-23T00:10:12+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004974s ]
+
+[ 2018-11-23T00:10:23+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2018-11-23T00:11:56+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002518s ]
+
+[ 2018-11-23T00:12:52+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000984s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003191s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2018-11-23T00:13:16+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001046s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2018-11-23T00:14:07+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000598s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2018-11-23T00:15:43+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000244s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2018-11-23T00:15:45+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-11-23T00:17:16+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2018-11-23T00:17:54+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000213s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2018-11-23T00:18:20+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001898s ]
+
+[ 2018-11-23T00:18:27+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2018-11-23T00:19:45+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002333s ]
+
+[ 2018-11-23T00:21:15+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000516s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002708s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2018-11-23T00:22:45+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000623s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001608s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2018-11-23T00:22:56+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000334s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000736s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2018-11-23T00:24:00+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003074s ]
+
+[ 2018-11-23T00:24:25+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002796s ]
+
+[ 2018-11-23T00:27:27+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2018-11-23T00:29:22+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000659s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002131s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2018-11-23T00:30:02+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2018-11-23T00:30:05+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000665s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2018-11-23T00:32:28+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006888s ]
+
+[ 2018-11-23T00:32:35+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-11-23T00:34:13+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2018-11-23T00:34:19+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000330s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2018-11-23T00:34:24+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2018-11-23T00:34:47+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2018-11-23T00:34:51+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-11-23T00:34:52+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2018-11-23T00:35:30+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2018-11-23T00:35:42+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000811s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2018-11-23T00:39:57+08:00 ] 127.0.0.1 /list_home/?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 50 行.
+NOTIC: [8] Undefined variable: list_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/9e813abae1caaee9dc569b2203dfaae4.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2018-11-23T00:40:09+08:00 ] 127.0.0.1 /list_home/?c=index&a=additem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Undefined variable: item_id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/7aecd95e6957d474d9e286fb3f0c2117.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2018-11-23T00:40:19+08:00 ] 127.0.0.1 /list_home/?c=index&a=addHandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `lh_list` [ RunTime:0.0044s ]
+SQL: INSERT INTO `lh_list` (`uid`,`name`,`create_time`,`update_time`,`tags`,`is_public`,`desc`,`status`) VALUES ('0','c','1542904819','1542904819','bb,bb','0','bb','1') [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `lh_listitem` [ RunTime:0.0028s ]
+SQL: INSERT INTO `lh_listitem` () VALUES () [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+

@@ -1,0 +1,67 @@
+
+._m_container{
+    margin: 20px auto;
+    padding-bottom: 50px;
+}
+._list_contai{
+    border: 2px solid #1dc116;
+    padding: 5px;
+}
+._list_contai .row{
+    padding: 2px;
+
+}
+._list_title{
+    border-bottom: 1px dashed #dedede;
+}
+._search{
+    margin-bottom: 15px;
+}
+._ck_list{
+    border-bottom: 1px solid #0f0f0f;
+}
+._list_contai{
+    border: 2px solid #1dc116;
+}
+._list_top{
+    border-bottom: 2px solid #d6e9c6;
+
+}
+._list_row{
+    border-bottom: 1px solid #dedede;
+}
+.mgb10{
+    margin: 10px 0px;
+}
+
+._link_box{
+    border: 2px solid #0f0f0f;
+    margin-top: 10px;
+    border-bottom: 1px solid #0f0f0f;
+}
+
+.navbar-fixed-bottom .btn{
+    height: 50px;
+}
+.line_right{
+    border-right: 1px solid #dedede;
+}
+.form-horizontal .control-label{
+    padding-top: 7px;
+}
+.form-horizontal{
+    margin-top: 20px;
+}
+._list_desc{
+    border-top: 1px solid #dedede;
+}
+
+._list_cron{
+
+    border-bottom: 1px solid #c1c1c1;
+}
+._list_cron h5,.all_list_ h5{
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+
+
