@@ -1506,3 +1506,247 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
 
+[ 2018-11-27T21:42:27+08:00 ] 127.0.0.1 /list_home/?c=index&a=homepage&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+SQL: SHOW COLUMNS FROM `lh_list` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `lh_list` WHERE ( uid = 2 and is_public in (1) and status = 1 )  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined variable: tkd /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 8 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.167060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.168066s ]
+
+[ 2018-11-27T21:42:54+08:00 ] 127.0.0.1 /list_home/?c=index&a=homepage&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `lh_list` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `lh_list` WHERE ( uid = 2 and is_public in (1) and status = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Undefined variable: tkd /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 8 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-11-27T21:43:50+08:00 ] 127.0.0.1 /list_home/?c=index&a=homepage&uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `lh_list` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `lh_list` WHERE ( uid = 1 and is_public in (1,2) and status = 1 )  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000626s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001596s ]
+NOTIC: [8] Undefined variable: tkd /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 8 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+NOTIC: [8] Undefined index: id /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 100 行.
+NOTIC: [8] Undefined index: is_more /Users/yangxianhuo/code/list_home/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011950s ]
+

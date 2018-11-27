@@ -1,0 +1,4 @@
+vendor/
+.idea
+doc
+Application/Runtime/*

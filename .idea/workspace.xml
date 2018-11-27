@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f03cb966-a73a-4de5-80bd-a56bae9dba14" name="Default" comment="" />
+    <list default="true" id="f03cb966-a73a-4de5-80bd-a56bae9dba14" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/63c81f5b5f7b215605816ff2bde5d1bc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/18_11_27.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/18_11_27.log" />
+    </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +26,28 @@
     <favorites_list name="list_home" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="indexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/indexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="352" column="0" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +65,9 @@
       <find>https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist</find>
       <find>TMPL_PARSE_STRING</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,7 +109,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="725" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -130,6 +159,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,56 +188,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -249,32 +229,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,53 +280,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list_home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,17 +381,19 @@
       <workItem from="1542898001344" duration="6668000" />
       <workItem from="1543024355759" duration="23563000" />
       <workItem from="1543242375751" duration="6450000" />
+      <workItem from="1543249750041" duration="1000" />
+      <workItem from="1543326204654" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62998000" />
+    <option name="totallyTimeSpent" value="63247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18497577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1898223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -527,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3840">
           <caret line="160" column="28" selection-start-line="160" selection-start-column="28" selection-end-line="160" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,20 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,20 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,20 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,20 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,20 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,20 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="224" column="26" selection-start-line="25" selection-start-column="0" selection-end-line="246" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="34" column="21" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <marker date="1543031987432" expanded="true" signature="1009:1206" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,40 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="244" column="22" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/indexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-635">
-          <caret line="352" column="0" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
-          <folding>
-            <element signature="e#2024#2089#0#PHP" expanded="false" />
-            <element signature="e#2126#2272#0#PHP" expanded="false" />
-            <element signature="e#2199#2272#0#PHP" expanded="false" />
-            <element signature="e#2281#2386#0#PHP" expanded="false" />
-            <element signature="e#2339#2386#0#PHP" expanded="false" />
-            <element signature="e#2537#2805#0#PHP" expanded="false" />
-            <element signature="e#2714#2795#0#PHP" expanded="false" />
-            <element signature="e#2889#3497#0#PHP" expanded="false" />
-            <element signature="e#2990#3163#0#PHP" expanded="false" />
-            <element signature="e#3043#3149#0#PHP" expanded="false" />
-            <element signature="e#3176#3486#0#PHP" expanded="false" />
-            <element signature="e#3377#3471#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/additem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,10 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#volist#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#1;n#empty#0;n#volist#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#volist#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="169" column="14" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#block#2;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,27 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="120" column="108" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="108" />
-          <folding>
-            <element signature="e#160#846#0" expanded="false" />
-            <element signature="n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#volist#0;n#div#1;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#volist#0;n#div#1;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#if#0;n#div#0;n#volist#0;n#div#1;n#div#0;n#volist#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#volist#0;n#div#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#volist#0;n#div#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#if#0;n#div#0;n#volist#0;n#div#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="13" column="73" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="73" />
-          <folding>
-            <element signature="n#block#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,6 +762,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/indexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="352" column="0" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
           <folding />
         </state>
       </provider>
